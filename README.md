@@ -7,8 +7,8 @@ Virtual Reality cat museum developed in 4 weeks, as a final project for a Fundam
 This project was made by [Sidonie Minodier](https://github.com/shidowe), [Victoria Myot](https://github.com/vmfmyot), and [Gleda Uisetiawan](https://www.linkedin.com/in/gledaui/), 1st year HCI Master students at Paris-Saclay University.
 ## Project Description
 
-This project aims to stimulate an interactive virtual museum visit. The objective of such a VR-based experience is to enrich and enhance visitors’ engagement during museum exhibitions or excursions. In addition, VR makes it
-possible for visitors to explore inaccessible, hard-to-reach places and to recreate sites and artefacts
+This project aims to simulate an interactive virtual museum visit. The objective of such a VR-based experience is to enrich and enhance visitors’ engagement during museum exhibitions or excursions. In addition, VR makes it
+possible for visitors to explore inaccessible, hard-to-reach places and to recreate sites and artifacts
 that were destroyed long ago. Interactive exhibits designed for both adults and children can further
 support learning by providing engaging ways to discover the history of an artifact or a ruin.
 \
@@ -84,7 +84,7 @@ The README.md was written by **Victoria**.
 
 ##  Challenges encountered
 We encountered several challenges during this project, mostly from our interaction setup.
-- **Hardware issues:** It took us a week to set up the headset with our Unity project. Furthermore, until the last class, we still had an issue with our **controllers**, where they would immediately get deactivated in game-mode even tho they were activated in the editing scene.
+- **Hardware issues:** It took us a week to set up the headset with our Unity project. Furthermore, until the last class, we still had an issue with our **controllers**, where they would immediately get deactivated in game-mode even though they were activated in the editing scene.
 - **Movement integration:** We had quite a few difficulties adding movement in-game. At first, we tried to add teleportation points, but ended up scrapping them as we managed to implement gliding movements. Even though we reused the prepared assets from the Demo Scenes, it never worked the same way in our project. Additionally, sometimes our movement setup would randomly switch to teleportation for a single game test.
 - **Ray casting:** This issue is also part of our interaction set. We had a lot of difficulties making our ray casting appear, especially because it was in conflict with our movements.
 - **Camera falling**: Whenever we try to grab objects, our camera falls to the ground.
