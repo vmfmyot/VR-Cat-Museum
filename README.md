@@ -75,7 +75,7 @@ The README.md was written by **Victoria**.
 
 ## Video demonstration
 
-embed video in git TODOOOOOOO
+![Information panel scroll](https://github.com/[vmfmyot]/[VR-Cat-Museum]/blob/[main]/DemoVideos/PanelScroll.mp4?raw=true)
 
 
 ##  Challenges encountered
