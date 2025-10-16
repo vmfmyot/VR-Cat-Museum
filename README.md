@@ -22,7 +22,7 @@ Our museum is cat-themed and consists of 3 rooms :
 
 This project was developed on the Unity Game Engine, using an HTC Vive Cosmos 2 headset. \
 \
-Our museum layout was designed and built using the SweetHome3D software. However, the rest of our 3D assets were all found online and are free to use. All the credits will be given further below.
+Our museum layout was designed and built using the SweetHome3D software. However, the rest of our 3D assets were all found online and are free to use.
 
 
 ## Implemented features and group members' contributions
@@ -75,7 +75,11 @@ The README.md was written by **Victoria**.
 
 ## Video demonstration
 
-<video src="DemoVideos/ScrollPanel.mp4" controls width="600"></video>
+[Museum Walkthrough](DemoVideos/Walkthrough.mp4)
+
+[Information scrolling](DemoVideos/PanelScroll.mp4)
+
+[Grabbable puzzle pieces](DemoVideos/PuzzleGrab.mp4)
 
 
 ##  Challenges encountered
@@ -85,7 +89,3 @@ We encountered several challenges during this project, mostly from our interacti
 - **Ray casting:** This issue is also part of our interaction set. We had a lot of difficulties making our ray casting appear, especially because it was in conflict with our movements.
 - **Camera falling**: Whenever we try to grab objects, our camera falls to the ground.
 
-
-## Credits
-
-Add all credit links for the images and 3D assets
