@@ -2,11 +2,9 @@
 # VR Cat Museum
 
 Virtual Reality cat museum developped in 4 week, as a final project for a Fundamentals of eXtended Reality class.
-
 ## Authors
 
 This project was made by [Sidonie Minodier](https://github.com/shidowe), [Victoria Myot](https://github.com/vmfmyot) and [Gleda Uisetiawan](https://www.linkedin.com/in/gledaui/), 1st year HCI Master students at Paris-Saclay University.
-
 ## Project Description
 
 This project aims to stimulate an interactive virtual museum visit. The objective of such VR-based visits is to enrich
@@ -23,7 +21,7 @@ Our museum is cat-themed, and consists in 3 rooms :
 
 ## Tools
 
-This project was developped on the Unity Game Engine, using an HTC Vive Pro 2 headset. \
+This project was developped on the Unity Game Engine, using an HTC Vive Cosmos 2 headset. \
 \
 Our museum layout was designed and built using the SweetHome3D software. However, the rest of our 3D assets were all found online and are free-of-use. Credits will be given further below.
 
@@ -33,40 +31,48 @@ Our museum layout was designed and built using the SweetHome3D software. However
 We mostly worked on the project on-site in order to gain access to the hardware, so most features were implemented as a group.
 
 ### _3D museum layout_
-Basic sketch layout was designed as a group. Complete 3D modelisation (with assets embedded) made by **Gleda**.
-
-### _Ambiant lighting_
-When getting close to an artifact, light appears to ............. This feature was handled by Gleda.
+**Gleda**\
+We made a very basic sketch of the overall layout during a brainstorming session. Then, Gleda modelled the entire museum in SweetHome3D, and added textures and assets before exporting it to the main scene.
 
 ### _Colliders and physics_
-**Sidonie**
+**Sidonie**\
+Colliders and physics were added to all our 3D objects to ensure a smooth and realistic VR experience.
+
+### _Ambiant lighting_
+**Gleda**\
+When the player gets close to an artifact or a painting in the Antique and Modern rooms, ambiant lights appear to set focus on it. Consequently, getting away from said artifact will turn the corresponding light off. This scripted behavior was implemented with the help of collision events.
 
 ### _3D artifacts and assets_
-Exhibitions themes were decided as a group. 3D assets collection, import and resizing handled by **Victoria**.
+**Victoria**\
+Exhibitions themes were decided as a group. Then, all 3D assets were gathered, imported into the project, resized and placed in their spots by Victoria.
 
 ### _Virtual navigation_
-Player can use the joystick to move around the museum (glyding metaphor). It is advised to use both joysticks when playing. Virtual navigation implemented by **Sidonie**.
+**Sidonie**\
+Player can use the joystick to move around the museum (glyding metaphor). It is advised to use both joysticks when playing: to move, use the left joystick, and to point at things use the right one.
 
 ### _Spatial audio_
-Each room has their own background music that fits the theme of the exhibition. When moving from one room to the other, the audio changes accordingly. This feature was handled by **Gleda**.
+**Gleda**\
+Each room has their own background music that fits the theme of the exhibition. When moving from one room to the other, the audio changes accordingly.
 
 ### _Ray casting manipulation of objects_
-Some objects, such as Information Panels and the Puzzle Minigames are interactable through ray casting. This part was handled by **Sidonie and Victoria**.
+**Sidonie and Victoria**\
+Some objects, such as Information Panels for each artifacts and the Puzzle Minigame are interactable through ray casting. Ray casting works better using the right joystick.
 
 ### _Puzzle minigame_
-Our museum has a small puzzle minigame with grabbable pieces. This was implemented by **Sidonie**.
+**Sidonie**\
+Our museum contains a small puzzle minigame with grabbable pieces. Unfortunately, because of time constraints, we didn't have time to complete it.
 
 ### _Information panels_
-Each artifact has a scrollable canvas that displays information with a 3D TextMeshPro. Artifacts information was gathered by **Gleda and Victoria** and **Victoria** added the panels to the museum.
-
+**Gleda and Victoria**\
+Each artifact has a scrollable canvas that displays information with a 3D TextMeshPro. Artifacts descriptions was gathered by Gleda, and Victoria added the information panels to each artifact in the museum.
 
 ### _Timer_
-We added a timer to count down the time spent in the museum. This timer UI is always visible to the player. Canvas and scripting implemented by **Victoria**.
+**Victoria and Sidonie**\
+We added a timer to count down the time spent in the museum. This timer UI is always visible to the player. The UI canvas was made by Sidonie, and the scripting was handled by Victoria.
 
 
 ### _Project report_
 The README.md was written by **Victoria**.
-
 
 ## Video demonstration
 
