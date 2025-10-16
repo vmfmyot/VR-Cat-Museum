@@ -73,7 +73,7 @@ We added a timer to count down the time spent in the museum. This timer UI is al
 ### _Project report_
 The README.md was written by **Victoria**.
 
-## Video demonstration
+## Video demonstrations
 
 [Museum Walkthrough](DemoVideos/Walkthrough.mp4)
 
