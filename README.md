@@ -68,7 +68,7 @@ Each artifact has a scrollable canvas that displays information with a 3D TextMe
 
 ### _Timer_
 **Victoria and Sidonie**\
-We added a timer to count down the time spent in the museum. This timer UI is always visible to the player. The UI canvas was made by Sidonie, and the scripting was handled by Victoria.
+We added a timer to count down the time spent in the museum. This timer UI is always visible to the player. The UI canvas was made by Sidonie, and the scripting was handled by Victoria. For some reason, it doesn't show in our demonstration videos (screen recordings in game mode), but it is visible in the headset at all times.
 
 
 ### _Project report_
@@ -82,14 +82,12 @@ embed video in git TODOOOOOOO
 
 ##  Challenges encountered
 
-- ray
-- movement
-- left and right controllers issues : turning off when game starts,
-switch between move and teleport randomly appearing
-- camera falling on the ground when grabbing an objective
-- time constraints
-- stuff copy-pasted from the tutorial setup doesn't necessarily work (koff koff)
-- 
+We encountered several challenges during this project, mostly from our interaction setup.
+- **Hardware issues :** it took us a week to set up the headset with our Unity project. Furthermore, until the last class we still had an issue with our **controllers**, where they would immediately get deactivated in game-mode even tho they were activated in editing scene.
+- **Movement integration :** we had quite some difficulties adding movement in-game. At first, we tried to add teleportation points, but ended up scrapping it as we managed to implement gliding movements. Even tho we reused the prepared assets from the Demo Scenes, it never worked the same way in our project. Additionally, sometimes our movement setup would randomly switch to teleportation for a single game test.
+- **Ray casting :** this issue is also part of our interaction set. We had a lot of difficulties making our ray casting appear, especially because it was in conflict with our movements.
+- **Camera falling** : whenever we try grabbing objects, our camera falls to the ground.
+
 ## Credits
 
 Add all credit links for the images and 3D assets
