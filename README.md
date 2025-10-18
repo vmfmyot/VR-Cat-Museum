@@ -20,7 +20,7 @@ Our museum is cat-themed and consists of 3 rooms :
 
 ## Tools
 
-This project was developed on the Unity Game Engine, using an HTC Vive Cosmos 2 headset. \
+This project was developed on the Unity Game Engine, using an HTC Vive Cosmos headset. \
 \
 Our museum layout was designed and built using the SweetHome3D software. However, the rest of our 3D assets were all found online and are free to use.
 
